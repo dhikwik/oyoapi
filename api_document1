@@ -2,39 +2,49 @@ page 1
 
 - List of cities
 http://localhost:6702/location
+https://oyodhiksha.herokuapp.com/location
 
 page 2
 
 -list of hotels wrt cities
 http://localhost:6702/hotel/4
+https://oyodhiksha.herokuapp.com/hotel/4
 
 -category 
 http://localhost:6702/category
+https://oyodhiksha.herokuapp.com/category
 
 - hotel matching category nd city
 http://localhost:6702/filter/3?category=2
+https://oyodhiksha.herokuapp.com/filter/3?category=2
 
 -cost filter
 http://localhost:6702/filter/1?lcost=200&hcost=700
+https://oyodhiksha.herokuapp.com/filter/1?lcost=200&hcost=700
 
 category nd cost
 http://localhost:6702/filter/1?category=1?lcost=200&hcost=700
+https://oyodhiksha.herokuapp.com/filter/1?category=1?lcost=200&hcost=700
 
 page 3 -
 
 -hotel details
 http://localhost:6702/details/4
+https://oyodhiksha.herokuapp.com/details/4
 
 -menu
 http://localhost:6702/menu/5
+https://oyodhiksha.herokuapp.com/menu/5
 
 page 4
 
 to place booking 
 localhost:6702/placeOrder
 
+
 to see booking
 http://localhost:6702/orders?email=user@gmail.com
+https://oyodhiksha.herokuapp.com/email=user@gmail.com
 
 to post menu
 localhost:6702/menuItem
