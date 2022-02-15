@@ -1,0 +1,45 @@
+page 1
+
+- List of cities
+http://localhost:6702/location
+
+page 2
+
+-list of hotels wrt cities
+http://localhost:6702/hotel/4
+
+-category 
+http://localhost:6702/category
+
+- hotel matching category nd city
+http://localhost:6702/filter/3?category=2
+
+-cost filter
+http://localhost:6702/filter/1?lcost=200&hcost=700
+
+category nd cost
+http://localhost:6702/filter/1?category=1?lcost=200&hcost=700
+
+page 3 -
+
+-hotel details
+http://localhost:6702/details/4
+
+-menu
+http://localhost:6702/menu/5
+
+page 4
+
+to place booking 
+localhost:6702/placeOrder
+
+to see booking
+http://localhost:6702/orders?email=user@gmail.com
+
+to post menu
+localhost:6702/menuItem
+
+update booking
+localhost:6702/updateOrder/620baf76788d3eb3a98a231d?status=Success
+
+
