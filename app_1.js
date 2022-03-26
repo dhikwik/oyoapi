@@ -30,6 +30,14 @@ app.get('/location',(req,res) => {
     })
 })
 
+// state
+app.get('/states',(req,res) => {
+    db.collection('state').find().toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
 // hotel wrt location
 app.get('/hotel/:id',(req,res) => {
     let restId  = Number(req.params.id)
